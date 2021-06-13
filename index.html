@@ -9,13 +9,14 @@
         body {
           font-family: Arial, Helvetica, sans-serif;
           margin: 0;
-        }
-        
+        }        
         .navbar {
           overflow: hidden;
-          background-color: #333; 
+          background-color: rgba(110,110,110,0.25); 
           position: fixed;
-          top: 100px;
+          bottom: 44px;
+          width: 100%;
+          
         }
         
         .navbar a {
@@ -44,15 +45,15 @@
         }
         
         .navbar a:hover, .subnav:hover .subnavbtn {
-          background-color: red;
+          background-color: rgb(123, 123, 123);
         }
         
         .subnav-content {
           display: none;
           position: fixed;
           left: 0;
-          background-color: red;
-          width: 50%;
+          background-color: rgb(123, 123, 123);
+          width: 100%;
           z-index: 1;
         }
         
@@ -76,35 +77,25 @@
 <div id="panorama">
 <iframe title="Pannellum Viewer" allowfullscreen style="border-style: none; position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;" src="https://rabiadhikari.github.io/Playbook/pannellum.htm#panorama=https://dl.dropboxusercontent.com/s/wul2omls9jnnwzt/Final01.png&amp;autoLoad=false" ></iframe>
 <div class="navbar">
-    <a href="#home">Home</a>
-    <div class="subnav">
-      <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
-        <a href="#company">Company</a>
-        <a href="#team">Team</a>
-        <a href="#careers">Careers</a>
-      </div>
-    </div> 
-    <div class="subnav">
-      <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
-        <a href="#bring">Bring</a>
-        <a href="#deliver">Deliver</a>
-        <a href="#package">Package</a>
-        <a href="#express">Express</a>
-      </div>
-    </div> 
-    <div class="subnav">
-      <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
-        <a href="#link1">Link 1</a>
-        <a href="#link2">Link 2</a>
-        <a href="#link3">Link 3</a>
-        <a href="#link4">Link 4</a>
-      </div>
-    </div>
-    <a href="#contact">Contact</a>
-  </div>
+        <div class="subnav">
+        <button class="subnavbtn">Wall Patterns <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="#company">01</a>
+            <a href="#team">02</a>
+            <a href="#careers">03</a>
+        </div>
+        </div> 
+        <div class="subnav">
+        <button class="subnavbtn">Couch Fabrics <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="#bring">01</a>
+            <a href="#deliver">02</a>
+            <a href="#package">03</a>
+        </div>
+        </div> 
+
+   
+</div>
 
 <!-- src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https://pannellum.org/images/alma.jpg"
 src="https://www.rabiadhikari.github.io/Playbook/pannellum.htm#panorama=https://dl.dropboxusercontent.com/s/wul2omls9jnnwzt/Final01.png" -->
